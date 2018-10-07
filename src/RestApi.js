@@ -7,13 +7,13 @@ class RestApi extends React.Component {
     constructor(props) {
         super(props)
         this.postData = {
-            // "country": "USA3",
-            // "iso": "USDA",
-            // "isd": "1",
-            // "status": "1",
-            // "active_status": true,
-            // "mobile_number_digits": 9,
-            // "currency": 1
+            "country": "USA3",
+            "iso": "USDA",
+            "isd": "1",
+            "status": "1",
+            "active_status": true,
+            "mobile_number_digits": 9,
+            "currency": 1
         }
         this.state = {
             users:[]
